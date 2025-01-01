@@ -1,0 +1,47 @@
+body{
+    background-image: url(stones-8249322_1920.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-style: initial;
+    
+
+}
+form{
+    background-color: rgba(56, 54, 52, 0.827) ;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+ form input{
+    background-color: rgb(160, 152, 143);
+    border: none;
+    outline: none;
+    color: rgb(71, 67, 67);
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 200px;
+    flex-grow: 1;
+
+}
+button{
+    background-color: rgb(93, 89, 85);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 30px;
+    flex-grow: 1;
+
+}
